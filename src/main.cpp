@@ -17,7 +17,10 @@ int main(int argc,char** argv)
 		exit(-1);
 	}
 	MsgQueue mq(argv[1],(unsigned short)atoi(argv[2]));
-	while(1);
+	while(1)
+	{
+		sleep(1);	
+	};
 	return 0;
 }
 
